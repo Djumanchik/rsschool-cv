@@ -1,5 +1,5 @@
 # 1. **Kirill Dzhumanov**
-![photo](rsschool-cv/djum.jpg "id")
+![rsschool-cv/djum.jpg](https://github.com/Djumanchik/rsschool-cv/blob/gh-pages/Djum.jpg)
 
 2. djum83@mail.ru, +79218797977, Djum(@Djumanchik)
 
@@ -9,5 +9,8 @@
 
 5. Not yet.
 
-6. Ingineer, Naval Institut A.S. Popova
-7. 
+6. Not yet.
+
+7. Ingineer, Naval Institut A.S. Popova
+
+8. 
