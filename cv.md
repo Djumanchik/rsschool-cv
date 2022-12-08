@@ -13,4 +13,4 @@
 
 7. Ingineer, Naval Institut A.S. Popova
 
-8. 
+8. Pre-intermediate (А2)
