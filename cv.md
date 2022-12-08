@@ -11,6 +11,6 @@
 
 6. Not yet.
 
-7. Ingineer, Naval Institut A.S. Popova
+7. Ingineer, Naval Institut A.S. Popova.
 
-8. Pre-intermediate (А2)
+8. Pre-intermediate (A2).
