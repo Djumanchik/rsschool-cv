@@ -1,0 +1,76 @@
+/*
+Новое оформление [[Заглавная страница]]
+
+Главный референс:
+https://design.wikimedia.org/style-guide/
+https://github.com/wikimedia/wikimedia-ui-base/blob/master/wikimedia-ui-base.less
+
+Не удаляйте код до завершения работы
+*/
+
+/* Стандартные заголовки */
+.main-header {
+	border-bottom-color: transparent;
+	margin-bottom: 0.25em;
+	margin-top: 0;
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+/* Списки без оформления */
+.main-plainlist > ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.main-plainlist li {
+	margin-bottom: 0;
+}
+
+/* Ссылки-кнопки */
+.main-top-right .mw-ui-quiet:hover,
+.main-top-right .mw-ui-quiet:focus,
+.main-footer .mw-ui-quiet:hover,
+.main-footer .mw-ui-quiet:focus {
+	color: #0645ad;
+}
+
+/* Убираем нумерацию заголовков, создаваемую опцией «Автоматически нумеровать заголовки»
+   на [[Служебная:Настройки#mw-prefsection-rendering]] */
+.mw-headline-number {
+    display: none;
+}
+
+/*
+Планшеты
+*/
+@media (min-width: 720px) {
+	.main-wikimedia {
+		padding-top: 1rem;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+}
+
+/*
+Стационарные компьютеры
+*/
+@media (min-width: 1000px) {
+	.main-wrapper {
+		display: flex;
+		margin: 0 -0.75rem;
+	}
+	
+	.main-wrapper-column {
+		flex: 1;
+		margin: 0 0.75rem;
+	}
+	
+	.main-wikimedia {
+		padding-top: 1.5rem;
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
+	}
+}
+/* [[Категория:Шаблоны:Подстраницы CSS]] */
