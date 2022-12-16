@@ -1,1 +1,96 @@
+<<<<<<< HEAD
+body {
+    font-family: 'League Gothic', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 2;
+    color: rgb(0, 0, 0);
+    background-image: url('assets/img/background.jpg');
+    background-size: 130% auto;
+    min-height: 100vh;
+    margin: 10;
+    padding: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
 
+* {
+    box-sizing: border-box;
+}
+
+header {
+    padding: 10px;
+    margin: 0;
+}
+
+main {
+    border: 10px ridge rgb(207, 194, 8);
+    clear: both;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+footer {
+    clear: both;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    list-style: none;
+}
+
+.nav-item {
+    padding: 5px;
+    margin: 0;
+}
+
+.nav-link {
+    padding: 0;
+    line-height: 10px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+a {
+    text-decoration: none;
+    transition: .3s;
+    color: blue;
+}
+
+a:hover {
+    color: rgb(255, 3, 3);
+    text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 50%;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+=======
+
+>>>>>>> 798e8348fca8d4f16935b75c9f2e2a6bbe886ed9
