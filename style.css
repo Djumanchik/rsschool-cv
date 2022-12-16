@@ -1,76 +1,92 @@
-/*
-Новое оформление [[Заглавная страница]]
-
-Главный референс:
-https://design.wikimedia.org/style-guide/
-https://github.com/wikimedia/wikimedia-ui-base/blob/master/wikimedia-ui-base.less
-
-Не удаляйте код до завершения работы
-*/
-
-/* Стандартные заголовки */
-.main-header {
-	border-bottom-color: transparent;
-	margin-bottom: 0.25em;
-	margin-top: 0;
-	padding-bottom: 0;
-	padding-top: 0;
+body {
+    font-family: 'League Gothic', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 2;
+    color: rgb(0, 0, 0);
+    background-image: url('assets/img/background.jpg');
+    background-size: 130% auto;
+    min-height: 100vh;
+    margin: 10;
+    padding: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
 }
 
-/* Списки без оформления */
-.main-plainlist > ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
+* {
+    box-sizing: border-box;
 }
 
-.main-plainlist li {
-	margin-bottom: 0;
+header {
+    padding: 10px;
+    margin: 0;
 }
 
-/* Ссылки-кнопки */
-.main-top-right .mw-ui-quiet:hover,
-.main-top-right .mw-ui-quiet:focus,
-.main-footer .mw-ui-quiet:hover,
-.main-footer .mw-ui-quiet:focus {
-	color: #0645ad;
+main {
+    border: 10px ridge rgb(207, 194, 8);
+    clear: both;
+    margin: 0 auto;
+    padding: 15px;
 }
 
-/* Убираем нумерацию заголовков, создаваемую опцией «Автоматически нумеровать заголовки»
-   на [[Служебная:Настройки#mw-prefsection-rendering]] */
-.mw-headline-number {
-    display: none;
+footer {
+    clear: both;
+    margin: 0 auto;
+    text-align: center;
 }
 
-/*
-Планшеты
-*/
-@media (min-width: 720px) {
-	.main-wikimedia {
-		padding-top: 1rem;
-		padding-left: 1rem;
-		padding-right: 1rem;
-	}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
-/*
-Стационарные компьютеры
-*/
-@media (min-width: 1000px) {
-	.main-wrapper {
-		display: flex;
-		margin: 0 -0.75rem;
-	}
-	
-	.main-wrapper-column {
-		flex: 1;
-		margin: 0 0.75rem;
-	}
-	
-	.main-wikimedia {
-		padding-top: 1.5rem;
-		padding-left: 1.5rem;
-		padding-right: 1.5rem;
-	}
+.nav-list {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    list-style: none;
 }
-/* [[Категория:Шаблоны:Подстраницы CSS]] */
+
+.nav-item {
+    padding: 5px;
+    margin: 0;
+}
+
+.nav-link {
+    padding: 0;
+    line-height: 10px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+a {
+    text-decoration: none;
+    transition: .3s;
+    color: blue;
+}
+
+a:hover {
+    color: rgb(255, 3, 3);
+    text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 50%;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
