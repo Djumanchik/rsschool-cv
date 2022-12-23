@@ -1,26 +1,27 @@
 body {
     font-family: 'League Gothic', sans-serif;
-    font-size: 40px;
-    font-weight: 600;
-    line-height: 2;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1,5;
     color: rgb(0, 0, 0);
     background-image: url('assets/img/background.jpg');
-    background-size: 130% auto;
+    background-size: 135% auto;
     min-height: 100vh;
     margin: 10;
     padding: 10;
     display: flex;
     flex-direction: column;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 header {
-    padding: 10px;
-    margin: 0;
+    padding: 0px;
+    margin: 0 auto;
 }
 
 main {
@@ -28,24 +29,15 @@ main {
     clear: both;
     margin: 0 auto;
     padding: 15px;
-}
-
-footer {
-    clear: both;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.container {
-    max-width: 1440px;
-    margin: 0 auto;
+    align-items: center;
 }
 
 .nav-list {
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 5px;
     list-style: none;
+    margin: auto;
 }
 
 .nav-item {
@@ -78,15 +70,45 @@ html {
 .main-container {
     display: flex;
     flex-wrap: wrap;
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.main-section {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
 }
 
 .section {
     width: 50%;
-    padding: 10px;
+    padding: 5px;
+}
+
+.codefont {
+    width: 50%;
+    padding: 5px;
+    font-size: 14px;
 }
 
 @media (max-width: 768px) {
     .section {
         width: 100%;
     }
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 768px;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 0px;
 }

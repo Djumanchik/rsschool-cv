@@ -7,14 +7,13 @@
   <title>cv</title>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="assets/img/favicon.ico">
-  <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
 </head>
 
 <body> 
-  <header class="header"><div class="container"><section class="section" id="profile">
-        <h1>1. KIRILL DZHUMANOV</h1>
-        <img src="assets/img/djum.jpg" width="220" height="300" alt="my photo">
+  <header class="header"><div class="container"><section class="main-section" id="profile">
+        <div><h1>1. KIRILL DZHUMANOV</h1>
+        <img src="assets/img/djum.jpg" width="220" height="300" alt="my photo"></div>
     <nav class="nav">
       <ul class="nav-list">
         <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
@@ -32,33 +31,11 @@
     <section class="section" id="contacts">
       <h2>2. Contacts:</h2>
         <ul>
-          <li>Mail:
-            <ul>
-              <li>djum83@mail.ru</li>
-              <li>djumanchik@gmail.com</li>
-            </ul>
-          </li>     
-          <li>Mobile:
-            <ul>
-              <li>+79218797977</li>
-            </ul>
-          </li>
-          <li>Discord:
-            <ul>
-              <li>Djum(@Djumanchik)</li>
-            </ul>
-          </li>
-          <li>Messengers:
-            <ul>
-              <li><a href='https://t.me/+79218797977'>Telegram</a></li>
-              <li><a href='https://wa.me/+79218797977'>WatsApp</a></li>
-            </ul>
-          </li>
-          <li>Social network:
-            <ul>
-              <li><a href='https://m.vk.com/fordewind_mc'>VK.com</a></li>
-            </ul>
-          </li>
+          <li>Mail: djum83@mail.ru, djumanchik@gmail.com</li>
+          <li>Mobile: +79218797977</li>
+          <li>Discord: Djum(@Djumanchik)</li>
+          <li>Messengers: <a href='https://t.me/+79218797977'>Telegram </a><a href='https://wa.me/+79218797977'>WatsApp</a></li>
+          <li>Social network: <a href='https://m.vk.com/fordewind_mc'>VK.com</a></li>
         </ul>
     </section>
 
@@ -87,13 +64,13 @@
     
     <section class="section" id="code">
       <h2>5. Code:</h2>
-        <pre>
+        <pre class="codefont">
           <code>
-            document.write("Таблица Факториалов");
-            for(i = 1, fact = 1; i &LT; 20; i++, fact *= i) {
-                document.write(i + "! = " + fact);
-                document.write("&LT;br&GT;");
-            }
+document.write("Таблица Факториалов");
+for(i = 1, fact = 1; i &LT; 20; i++, fact *= i) {
+document.write(i + "! = " + fact);
+document.write("&LT;br&GT;");
+}
           </code>
         </pre>
     </section>
@@ -118,13 +95,11 @@
     </section>
   </div></main>
   
-  <footer class="footer"><div class="container">
-    <address>
-      <p><a href='http://github.com/Djumanchik'>My GitHub Profile</a></p>
-      <p><time datetime="2022-12-14">2022 year</time></p>
-      <p><a href='https://rs.school/js/'><img src="https://rs.school/images/rs_school_js.svg" width="100" height="111" alt="logoschool"></a></p>
-    </address>
-  </div></footer>
+  <footer class="footer">
+    <div><a href='http://github.com/Djumanchik'>My GitHub Profile</a></div>
+    <div>&copy; 2022 year</div>
+    <div><a href='https://rs.school/js/'><img src="https://rs.school/images/rs_school_js.svg" width="90" height="60" alt="logoschool"></a></div>
+  </footer>
 
 </body>
 </html>
